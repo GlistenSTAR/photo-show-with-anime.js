@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap");
+ * {
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
+}
+ body {
+	 width: 100%;
+	 height: 100vh;
+	 place-items: center;
+	 background: #161616;
+}
+ main {
+	 width: 100%;
+	 height: 100%;
+	 display: grid;
+	 place-items: center;
+	 padding: 4rem;
+}
+ .cards {
+	 width: 100%;
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 align-items: center;
+}
+ #test{
+	 color:white;
+	 font-size: large;
+ }
+ .cards .card {
+	 position: relative;
+	 width: 800px;
+	 height: 400px;
+	 margin: 2rem 4rem;
+}
+ .cards .card__image {
+	 position: relative;
+	 width: 100%;
+	 height: 100%;
+	 overflow: hidden;
+}
+ .cards .card__image--inner {
+	 width: 100%;
+	 height: 100%;
+	 overflow: hidden;
+}
+ .cards .card__text--inner {
+	 display: inline-block;
+	 color: #fff;
+	 font-size: 3rem;
+	 font-family: "Red Rose", Roboto;
+	 font-weight: 700;
+}
+ .loading__wrapper {
+	 position: fixed;
+	 left: 0;
+	 top: 0;
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+	 flex-direction: column;
+	 justify-content: center;
+	 align-items: center;
+	 background: #000;
+	 z-index: 200;
+}
+ .loading__wrapper .loader__text {
+	 color: #fff;
+	 font-family: "Red Rose", Roboto;
+	 font-weight: 400;
+	 margin-bottom: 1.4rem;
+}
+ .loading__wrapper.hide {
+	 pointer-events: none;
+	 user-select: none;
+	 opacity: 0;
+}
+ 
