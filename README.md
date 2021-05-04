@@ -1,8 +1,6 @@
 # photo-show-with-anime.js
 
-hello
-
-I make this project using anime.js
+This project using anime.js and developed/
 
 In this project when you move the mouse, photo appear with mask.
 
